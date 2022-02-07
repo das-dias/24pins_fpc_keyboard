@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "drills/")
+      (outputdirectory "gerbers/")
     )
   )
 
@@ -91,7 +91,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fcfaec9e-04e3-42f2-96bd-3a7e31baa906)
     )
-    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eea860aa-0b36-40e1-962e-547832289cd6)
     )
@@ -239,7 +239,7 @@
     (descr "TE FPC connector, 24 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4")
     (tags "te fpc 84952")
     (attr smd)
-    (fp_text reference "REF**" (at 0 -4) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 65908b01-f0a0-46e1-84f2-bf49d46af2a7)
     )
@@ -247,7 +247,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 899d6960-0494-4e8f-9091-802503c02d1b)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.9) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.9) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2d4ba971-ddd9-4f08-ae0a-4bc49faa5143)
     )
